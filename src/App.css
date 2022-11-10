@@ -1,9 +1,30 @@
 /* Add styling for your page here */
 
 .App {
+    display: flex;
+}
 
+.menu {
+    display: flex;
+    flex-flow: wrap;
+    width: 75%;
 }
 
 .BakeryItem {
-  
+  background-color: grey;
+  width: 30%;
+  margin: 10px;
+  border-radius: 15px;
+
 }
+
+.img {
+    max-width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.cart {
+    width: 200%;
+}
+
